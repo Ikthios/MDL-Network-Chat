@@ -23,6 +23,8 @@ namespace ClientForm
             Cmb_BitRate.SelectedIndex = 7;
 
             GetInputDevices();
+
+            Txt_YourAddress.Text = GetIpAddress();
         }
 
         private void Btn_CallFriend_Click(object sender, EventArgs e)
